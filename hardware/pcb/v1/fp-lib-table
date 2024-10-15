@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rpi-pico-sao-host")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/rpi-pico-sao-host.pretty")(options "")(descr ""))
+)

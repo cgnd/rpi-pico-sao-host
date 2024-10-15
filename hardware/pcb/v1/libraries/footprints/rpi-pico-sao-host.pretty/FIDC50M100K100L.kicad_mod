@@ -1,0 +1,112 @@
+(footprint "FIDC50M100K100L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Circular Fiducial, 0.5 mm bare copper, 1 mm soldermask opening (Level C)")
+	(tags "fiducial")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f3d13c9-3b0a-4f6d-aca1-c3f569823f90")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2df1543-a1ae-4349-b268-8ee09f6d5b68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d019a182-33bc-40d2-bc25-e28b9cd6e156")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "259a8d14-b4a6-4273-bb92-abfe22f22b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ee58f8f-14fc-488f-968c-8f581474b02d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b74d4760-efdb-4596-ab10-df42d3d003d6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ef659a24-a738-46f9-9666-9ca9f6431ee2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a19ebc8-4270-4162-9fda-67a16b5eb974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(property pad_prop_fiducial_glob)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.25)
+		(clearance 0.25)
+		(uuid "73b20805-b8d9-4e6f-82fa-5433a0c1fec9")
+	)
+)
