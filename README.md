@@ -8,8 +8,10 @@ The Raspberry Pi Pico SAO Host is a breakout board that adds [Simple Add-on (SAO
 
 ## Version 1
 
+The `v1` design is an example of a stand-alone KiCad project. It exclusively uses project-local libraries in this repository and does not depend on the global library bundled with KiCad.
+
 > [!WARNING]
-> The v1 design is **NOT** actually compatible with the RaspberryPi Pico W (wireless) variants. See [this issue](https://github.com/cgnd/rpi-pico-sao-host/issues/3) for more details.
+> The `v1` design is **NOT** actually compatible with the RaspberryPi Pico W (wireless) variants due to a mistake in the footprint. See [this issue](https://github.com/cgnd/rpi-pico-sao-host/issues/3) for more details.
 
 ![RPi_Pico_SAO_Host_v1_PCA_Rev_A_top_ortho_800x800](images/RPi_Pico_SAO_Host_v1_PCA_Rev_A_top_ortho_800x800.png)
 
