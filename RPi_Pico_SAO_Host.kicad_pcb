@@ -9,7 +9,7 @@
 	(paper "A")
 	(title_block
 		(title "RPi Pico SAO Host v1")
-		(date "2024-10-14")
+		(date "2025-05-04")
 		(rev "A")
 		(company "Common Ground Electronics")
 		(comment 3 "SPDX-License-Identifier: ${SPDX_LICENSE_ID}")
