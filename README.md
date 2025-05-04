@@ -4,7 +4,7 @@ typora-copy-images-to: ./images
 
 # Raspberry Pi Pico SAO Host
 
-The Raspberry Pi Pico SAO Host is a breakout board that adds [Simple Add-on (SAO)](https://hackaday.io/project/175182-simple-add-ons-sao) host connectors to the [RaspberryPi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/).
+The Raspberry Pi Pico SAO Host is a breakout board that adds [Simple Add-on (SAO)](https://hackaday.io/project/175182-simple-add-ons-sao) host connectors to the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/).
 
 ## Version 1
 
