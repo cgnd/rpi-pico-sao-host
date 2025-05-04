@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "rpi-pico-sao-host"
+SPDX-PackageSupplier = "Chris Wilson <chris@cgnd.dev>"
+SPDX-PackageDownloadLocation = "https://github.com/cgnd/rpi-pico-sao-host"
+
+[[annotations]]
+path = ["**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Common Ground Electronics <https://cgnd.dev>"
+SPDX-License-Identifier = "CERN-OHL-P-2.0"
