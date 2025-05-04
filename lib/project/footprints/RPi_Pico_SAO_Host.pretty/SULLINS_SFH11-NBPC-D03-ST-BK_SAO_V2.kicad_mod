@@ -1,8 +1,9 @@
 (footprint "SULLINS_SFH11-NBPC-D03-ST-BK_SAO_V2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "SAO v2 Host Connector")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
@@ -19,18 +20,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "cb6e9744-e691-4d18-a9d8-cd26b1ecf746")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "974c7322-cb2a-45a0-8da6-4caead632c3e")
 		(effects
 			(font
 				(size 1 1)
@@ -150,7 +139,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8ae3d445-7a87-4e91-a54b-21e0678d259e")
 	)
@@ -471,7 +460,8 @@
 		(remove_unused_layers no)
 		(uuid "1779f204-2d9f-4ce5-a9a4-d95be3db7589")
 	)
-	(model "${KIPRJMOD}/libraries/3dmodels/rpi-pico-sao-host.3dshapes/SFH11-NBPC-D03-ST-BK.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/project/3dmodels/RPi_Pico_SAO_Host.3dshapes/SFH11-NBPC-D03-ST-BK.step"
 		(offset
 			(xyz 0 0 0)
 		)

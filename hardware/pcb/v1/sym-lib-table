@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "rpi-pico-sao-host")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/rpi-pico-sao-host.kicad_sym")(options "")(descr ""))
-)

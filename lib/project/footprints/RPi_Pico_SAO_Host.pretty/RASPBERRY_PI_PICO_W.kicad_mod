@@ -2305,7 +2305,7 @@
 			"c0d3adef-2389-4e56-bd88-ad3b90de9ae2" "c0de99ff-c358-456c-8a84-29405c1cbc59"
 		)
 	)
-	(model "${KIPRJMOD}/libraries/3dmodels/rpi-pico-sao-host.3dshapes/RASPBERRYPI_PICO_W.step"
+	(model "${KIPRJMOD}/lib/project/3dmodels/RPi_Pico_SAO_Host.3dshapes/RASPBERRYPI_PICO_W.step"
 		(offset
 			(xyz 0 0 0)
 		)
