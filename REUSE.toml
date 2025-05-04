@@ -1,10 +1,38 @@
+# SPDX-FileCopyrightText: Common Ground Electronics <https://cgnd.dev>
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
 version = 1
 SPDX-PackageName = "rpi-pico-sao-host"
 SPDX-PackageSupplier = "Chris Wilson <chris@cgnd.dev>"
 SPDX-PackageDownloadLocation = "https://github.com/cgnd/rpi-pico-sao-host"
 
 [[annotations]]
-path = ["**"]
+path = [
+    "**.kicad_pro",
+    "**.kicad_sch",
+    "**.kicad_pcb",
+    "sym-lib-table",
+    "fp-lib-table",
+]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Common Ground Electronics <https://cgnd.dev>"
 SPDX-License-Identifier = "CERN-OHL-P-2.0"
+
+[[annotations]]
+path = [
+    "README.md",
+    "LICENSE.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "**.png",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Common Ground Electronics <https://cgnd.dev>"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [".python-version-default"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Common Ground Electronics <https://cgnd.dev>"
+SPDX-License-Identifier = "MIT OR Apache-2.0"

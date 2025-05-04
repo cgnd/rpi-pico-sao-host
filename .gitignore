@@ -1,5 +1,6 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# SPDX-FileCopyrightText: Common Ground Electronics <https://cgnd.dev>
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
 
 # Temporary files
 *.000
@@ -31,3 +32,7 @@ fp-info-cache
 
 # Output files
 output/
+
+# direnv
+.envrc
+.direnv

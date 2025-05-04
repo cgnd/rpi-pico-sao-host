@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: Common Ground Electronics <https://cgnd.dev>
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+[submodule "lib/github.com/cgnd/cgnd-kicad-lib"]
+	path = lib/github.com/cgnd/cgnd-kicad-lib
+	url = git@github.com:cgnd/cgnd-kicad-lib.git

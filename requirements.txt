@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: Common Ground Electronics <https://cgnd.dev>
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+# Make sure this version stays in sync with pre-commit-config.yaml
+reuse==5.0.2
+invoke==2.2.0
+pymupdf==1.25.5
+svglib==1.5.1
+reportlab==4.4.0
