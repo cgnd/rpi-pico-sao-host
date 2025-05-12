@@ -38,8 +38,8 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user "F.Assembly")
 		(33 "B.Fab" user "B.Assembly")
-		(39 "User.1" user "F.Fab")
-		(41 "User.2" user "B.Fab")
+		(39 "User.1" front "F.Fab")
+		(41 "User.2" back "B.Fab")
 	)
 	(setup
 		(stackup
