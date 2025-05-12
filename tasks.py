@@ -634,11 +634,13 @@ def release(context):
         schematic_path=SCH_PATH,
         bom_path=BOM_PATH,
     )
+    # Currently need to use the built-in layer names:
+    # https://gitlab.com/kicad/code/kicad/-/issues/20904
     pcb_export_gerbers(
         context,
         pcb_path=PCB_PATH,
         gerbers_path=GERBERS_PATH,
-        layers="F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,User.Drawings,User.Comments,Edge.Cuts,F.Assembly,B.Assembly,F.Fab,B.Fab",
+        layers="F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,User.Drawings,User.Comments,Edge.Cuts,F.Fab,B.Fab,User.1,User.2",
     )
     # Currently broken when compression is enabled:
     # https://gitlab.com/kicad/code/kicad/-/issues/20891
@@ -657,17 +659,21 @@ def release(context):
         pcb_path=PCB_PATH,
         ipcd356_path=IPCD356_PATH,
     )
+    # Currently need to use the built-in layer names:
+    # https://gitlab.com/kicad/code/kicad/-/issues/20904
     pcb_export_pdf(
         context,
         pcb_path=PCB_PATH,
         pdf_path=PCB_PDF_PATH,
-        layers="F.Cu,F.Paste,F.Silkscreen,F.Mask,User.Drawings,User.Comments,Edge.Cuts,F.Assembly,F.Fab",
+        layers="F.Cu,F.Paste,F.Silkscreen,F.Mask,User.Drawings,User.Comments,Edge.Cuts,F.Fab,User.1",
     )
+    # Currently need to use the built-in layer names:
+    # https://gitlab.com/kicad/code/kicad/-/issues/20904
     pcb_export_pdf(
         context,
         pcb_path=PCB_PATH,
         pdf_path=PCB_PDF_PATH,
-        layers="B.Cu,B.Paste,B.Silkscreen,B.Mask,B.Assembly,B.Fab",
+        layers="B.Cu,B.Paste,B.Silkscreen,B.Mask,B.Fab,User.2",
         mirror=True,
     )
     pcb_export_pos(
