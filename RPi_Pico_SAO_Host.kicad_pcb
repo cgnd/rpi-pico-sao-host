@@ -789,7 +789,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7ad8708c-ff86-495a-af2b-0e5e96dc6495")
+			(uuid "94134fa3-5954-4810-8f3f-3a62d4d7c12d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0 2.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "ec210975-0020-453d-ace0-03a9ac09a841")
 		)
 		(fp_circle
 			(center 0 0)
@@ -800,7 +811,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "7111ec86-0aed-4d9d-be56-6e80d0a27b9c")
+			(uuid "d03e0aba-02f6-4556-866a-948539cb71ee")
 		)
 		(fp_circle
 			(center 0 0)
@@ -811,7 +822,7 @@
 			)
 			(fill no)
 			(layer "User.1")
-			(uuid "04ac0835-b13a-41b2-b19b-c9b5f31e8b3e")
+			(uuid "7f929e44-9eab-4704-89fa-563aaa8a8cf5")
 		)
 		(fp_circle
 			(center 0 0)
@@ -822,7 +833,19 @@
 			)
 			(fill no)
 			(layer "User.2")
-			(uuid "6cd45619-d58d-4da9-a44f-4e939e6985a8")
+			(uuid "abb8eafe-fe94-4e95-a4dc-68c848da4100")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "c21f0eb1-9687-4ac2-804b-b54baa4bb0a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -855,7 +878,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "a6d3fb5b-2e33-4891-956c-65d788a47bd1")
+			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -866,7 +889,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "34165956-4eac-4896-a5fc-0aa27d62b44f")
+			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -877,7 +900,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "bcad5624-f831-46f2-a9b5-4fc86756e43a")
+			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -888,7 +911,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "62244641-5676-4247-b324-e290fbfe1aeb")
+			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -899,7 +922,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "dadeee54-13d6-4ea0-b46d-a67d6b96c56d")
+			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -910,7 +933,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "a930de2e-47a8-416c-abc7-9e5b0e456011")
+			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
 		)
 		(embedded_fonts no)
 	)
@@ -1254,7 +1277,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f4639aaf-d723-483b-a99b-7eec55decaab")
+			(uuid "12819bcc-abe7-4ea9-8425-708834a406ca")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.85 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "3501c191-c1c8-4267-b5f7-28ff9373cccc")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1265,7 +1299,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c23b1e97-cf9f-4a1c-90de-17edf534a877")
+			(uuid "529e6743-2a2a-4991-a267-f30f02290555")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1276,7 +1310,7 @@
 			)
 			(fill no)
 			(layer "User.1")
-			(uuid "118c7d03-ca56-4f18-9d37-edd09fef71a0")
+			(uuid "e78cc812-9f7f-4645-8e48-6e9549a334ec")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1287,7 +1321,19 @@
 			)
 			(fill no)
 			(layer "User.2")
-			(uuid "48ec0efe-bc5c-4ab5-af46-7f7daaf8aad2")
+			(uuid "1afa2b06-c5da-4086-9411-2dcfce49e93b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "f2744d22-b915-45e1-a62f-2142c612b0d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1307,7 +1353,7 @@
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.85)
 			(clearance 1.05)
-			(uuid "95ef88fc-45e5-4e7f-bebb-aa1930c974c6")
+			(uuid "303aa094-6ca1-4f05-b8cc-4f1ff8358164")
 		)
 		(embedded_fonts no)
 	)
@@ -4928,7 +4974,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "9caf0a8c-5c5d-4e37-8d2f-1a99354259a0")
+			(uuid "9ed2807d-c495-4fb9-982f-a5a4360ef61a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0 2.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "0c9bb2db-b000-49e5-bed7-b4b360223938")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4939,7 +4996,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "7f451a09-da85-4d0d-9672-03014eee74c8")
+			(uuid "d7eaafcb-f6d1-483c-b560-83b7c8d12156")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4950,7 +5007,7 @@
 			)
 			(fill no)
 			(layer "User.1")
-			(uuid "d8e74316-5494-40b0-bbb9-211bc8ddc42e")
+			(uuid "366e0774-9ce7-47ac-8af1-e93cde560a5b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4961,7 +5018,19 @@
 			)
 			(fill no)
 			(layer "User.2")
-			(uuid "ed6c1ad7-b2fa-4eb5-989a-2e994f2c28c7")
+			(uuid "efb19491-d606-4e40-a5b1-532717e1e6b2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "e98fa984-6631-4fb8-8d1e-2e4de813b1ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -4994,7 +5063,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "062af387-2015-46f8-8708-886845973735")
+			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -5005,7 +5074,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "d83f0485-6160-4284-b276-6fa725d80f61")
+			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -5016,7 +5085,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "fb0492e4-3650-4055-bc47-91b57901d1eb")
+			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -5027,7 +5096,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "3ed9477a-b6d1-4b75-97f5-49499eff0987")
+			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -5038,7 +5107,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "b4e9f4bd-e330-4d5d-bb24-04a56ef5f572")
+			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -5049,7 +5118,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "74283695-7724-490d-ae56-7e4e4068065d")
+			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
 		)
 		(embedded_fonts no)
 	)
@@ -5119,7 +5188,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "83b8e960-f6d3-465f-958c-e21dcaf857e0")
+			(uuid "8a25af16-5e20-4613-b609-eb521d727790")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0 2.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "04d037c7-4b80-44ad-a015-7e056301289d")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5130,7 +5210,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "20eced09-d530-4468-b1d7-110a781ce38c")
+			(uuid "22a41c5a-65ec-495e-b86c-fd0827a2b772")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5141,7 +5221,7 @@
 			)
 			(fill no)
 			(layer "User.1")
-			(uuid "1eeacdc2-2cdc-48a4-80f6-d38f2488579e")
+			(uuid "4da0c66b-7d79-46be-b5f0-9e0bea5d4038")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5152,7 +5232,19 @@
 			)
 			(fill no)
 			(layer "User.2")
-			(uuid "97208076-e51e-4200-a0d2-759df2b28c88")
+			(uuid "493b14bb-6fa2-4f0c-8b47-b89aecc215ad")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "66699142-7336-4f9a-8b8f-04921d1eaca4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -5185,7 +5277,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "bcee8608-1886-4b4e-a19c-9d38932acf1a")
+			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -5196,7 +5288,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "af6c633d-1bc8-4a5d-9c95-d273e65c145f")
+			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -5207,7 +5299,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "25d0ea05-8997-4344-9bfb-d323695f4daa")
+			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -5218,7 +5310,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "f283b7b7-ab15-446c-820e-ba49fed4766c")
+			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -5229,7 +5321,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "aa06a7a7-d1c6-4900-b7b6-751f4f656ada")
+			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -5240,7 +5332,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "436e6999-6d6a-4244-9aa5-12238a13c28f")
+			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
 		)
 		(embedded_fonts no)
 	)
@@ -6283,7 +6375,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1eddbc93-e904-41db-ab1d-28dfd77d5751")
+			(uuid "0610ae46-8612-4083-9686-51f419355c9f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.85 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "1498c2e0-390a-44b1-a7a4-2fcea25d4ffb")
 		)
 		(fp_circle
 			(center 0 0)
@@ -6294,7 +6397,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c11da746-16e9-436a-a14f-91553c3d5902")
+			(uuid "d3ae8324-e8e3-4006-a136-b245f3404b0c")
 		)
 		(fp_circle
 			(center 0 0)
@@ -6305,7 +6408,7 @@
 			)
 			(fill no)
 			(layer "User.1")
-			(uuid "0fb12b77-c8ab-4df0-b8f2-41a9061a30d9")
+			(uuid "872c95d7-b000-4757-b863-5d5204cc03dd")
 		)
 		(fp_circle
 			(center 0 0)
@@ -6316,7 +6419,19 @@
 			)
 			(fill no)
 			(layer "User.2")
-			(uuid "3ef7c40f-bdd2-4a34-a8ad-1c1c637c2934")
+			(uuid "20092059-e827-4ecd-ba18-ed96afbc361d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "8b845a32-a271-4158-b523-f490b63f0af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -6336,7 +6451,7 @@
 			(layers "*.Cu" "*.Mask")
 			(solder_mask_margin 0.85)
 			(clearance 1.05)
-			(uuid "7f87428a-6416-4f5b-a64a-85feb8958602")
+			(uuid "3f7c00e0-c5e9-4485-a6ad-b8abfd5d1321")
 		)
 		(embedded_fonts no)
 	)
@@ -7280,7 +7395,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8e639b3d-1b9f-472b-839e-3497242cfff7")
+			(uuid "8c4b3322-3837-4780-bc8a-0691eaffd9d2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0 2.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "3d4bdf10-936d-4854-9c42-6d0fbc8b9e16")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7291,7 +7417,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f5ef9f33-efda-40e0-8e7d-3bdce09b4642")
+			(uuid "3f18c77a-61c7-4ebd-bf4c-6971c3c76247")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7302,7 +7428,7 @@
 			)
 			(fill no)
 			(layer "User.1")
-			(uuid "fd3566d6-0e1d-41f5-9a52-13c756f48c84")
+			(uuid "8deab6ee-d870-41a5-b912-f653544320e9")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7313,7 +7439,19 @@
 			)
 			(fill no)
 			(layer "User.2")
-			(uuid "5d341552-cd9d-470f-bd2f-1873b560d513")
+			(uuid "fb80ce9d-e147-4ce6-8b57-168ab9e6df67")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "016cd93c-9afa-4680-a320-8e96c4224282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -7346,7 +7484,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "6dd24c9e-8b3c-4d1b-ba1b-2dbe32449c98")
+			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -7357,7 +7495,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "9952055c-ee3e-4d58-8121-1ea96be593ca")
+			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -7368,7 +7506,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "28b11e3b-44c8-4b34-aa3d-443968a466f7")
+			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -7379,7 +7517,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c6438df9-43cc-407e-879d-0d1d8623d255")
+			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -7390,7 +7528,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c1298ab1-7770-4017-8a88-b69b1e94ef15")
+			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -7401,7 +7539,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "a77cc4ad-a312-4736-95f0-eabc678d309a")
+			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
 		)
 		(embedded_fonts no)
 	)
