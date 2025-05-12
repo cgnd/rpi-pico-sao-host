@@ -15,6 +15,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Fix missing layers in `kicad-cli` exports.
 - Fix layer types for `F.Fab` and `B.Fab` layers.
 
+### Changed
+
+- Change PCB revision to `B`.
+
 ## [2.0.0] - 2025-05-09
 
 ### Added

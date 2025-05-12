@@ -138,7 +138,7 @@
 	(property "PCA_PART_NUMBER" "100094")
 	(property "PCA_REV" "A")
 	(property "PCB_PART_NUMBER" "100092")
-	(property "PCB_REV" "A")
+	(property "PCB_REV" "B")
 	(property "PROJECT_DESCRIPTION" "Raspberry Pi Pico SAO Host")
 	(property "PROJECT_VERSION_MAJOR" "2")
 	(property "SCH_PART_NUMBER" "100093")
@@ -878,7 +878,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
+			(uuid "c3360ddc-b61a-490c-a017-8c66d36ab289")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -889,7 +889,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
+			(uuid "3a0964c2-600a-4cb0-8672-0568b723fff7")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -900,7 +900,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
+			(uuid "a9235700-8e4d-40a1-87cd-0c34fbd932ca")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -911,7 +911,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
+			(uuid "b20afe06-d8ea-4ded-a282-3cc9574f0b72")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -922,7 +922,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
+			(uuid "1b910ecd-aa73-4412-ac51-c7f1989daa43")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -933,7 +933,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "c9c102eb-3487-445f-a83f-1b0811365e9a")
+			(uuid "a1dc577f-804c-4d9f-b111-fdfa77d8713d")
 		)
 		(embedded_fonts no)
 	)
@@ -5063,7 +5063,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
+			(uuid "14bc48b6-04cf-4e45-9415-7b8bad264038")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -5074,7 +5074,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
+			(uuid "97d579f9-60c5-4d9d-bf7d-12892f42e149")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -5085,7 +5085,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
+			(uuid "31782305-2211-4bc5-a27d-4342da20d55b")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -5096,7 +5096,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
+			(uuid "4626b277-0ea1-4b2c-9d80-a17048b352af")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -5107,7 +5107,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
+			(uuid "4f5b0ba0-3824-47db-8b35-edb31e6de439")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -5118,7 +5118,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "163e3ca1-5c0f-4305-ab73-5c888b4ff381")
+			(uuid "d4db5f12-1566-454b-9dbc-6bedcde67d36")
 		)
 		(embedded_fonts no)
 	)
@@ -5277,7 +5277,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
+			(uuid "9b4eb284-97f0-4ae0-9984-0f46975dd6e2")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -5288,7 +5288,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
+			(uuid "3e2558b8-1e8b-43c2-851a-486a8b087e84")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -5299,7 +5299,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
+			(uuid "fb49978e-0b08-40a1-8de8-d5f410a64b24")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -5310,7 +5310,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
+			(uuid "1af3866e-843f-433b-bf9c-643e6382a9e4")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -5321,7 +5321,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
+			(uuid "3032f9b1-9dbc-4664-afca-5ab548be1816")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -5332,7 +5332,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "8422c14f-e89d-42ae-abbb-7ae9e1d0f267")
+			(uuid "25fdae28-4ce3-4f9d-9788-e6a937e585ee")
 		)
 		(embedded_fonts no)
 	)
@@ -7484,7 +7484,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
+			(uuid "e31c368b-9261-4563-aabd-ab66e91cf471")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.025)
@@ -7495,7 +7495,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
+			(uuid "86c2bee5-8749-4869-bbcf-f633b0938ffa")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -7506,7 +7506,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
+			(uuid "164849bb-44b5-47ce-943e-26e511ae7ff3")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.025)
@@ -7517,7 +7517,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
+			(uuid "59904da9-06e7-4c5d-8903-fd06d1c18d4e")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 -1.0125)
@@ -7528,7 +7528,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
+			(uuid "926c31c1-7df5-4c9e-95ab-e086b7d38279")
 		)
 		(pad "1" thru_hole circle
 			(at 1.753701 1.0125)
@@ -7539,7 +7539,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "faac598f-ab23-465b-be11-14d15be3738f")
+			(uuid "09d69b36-1cfe-42ca-b0e8-ba8ed2ef0283")
 		)
 		(embedded_fonts no)
 	)
