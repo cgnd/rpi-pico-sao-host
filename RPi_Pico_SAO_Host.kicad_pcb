@@ -7601,34 +7601,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Symbol Copyright" "Common Ground Electronics <https://cgnd.dev>;The KiCad Developers <https://www.kicad.org>"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d08f9c8c-abf3-4d02-bf5c-c9e4fd3037fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Symbol License" "CC-BY-SA-4.0 WITH KiCad-libraries-exception"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d6f892cb-b009-40e2-9941-deffb1161dc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(path "/49493e92-2beb-491e-8104-830d18664882")
 		(sheetname "/")
 		(sheetfile "RPi_Pico_SAO_Host.kicad_sch")
@@ -9457,34 +9429,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "630fbfe2-3a4a-4ca4-ae48-4f86e069eef5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Symbol Copyright" "Common Ground Electronics <https://cgnd.dev>;The KiCad Developers <https://www.kicad.org>"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e8b5bfc5-457b-4b8c-b08e-643dc1234239")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Symbol License" "CC-BY-SA-4.0 WITH KiCad-libraries-exception"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "63ea9630-cc44-466e-bc4e-556f6524c66a")
 			(effects
 				(font
 					(size 1 1)

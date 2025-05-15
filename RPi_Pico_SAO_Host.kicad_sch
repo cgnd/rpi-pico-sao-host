@@ -748,26 +748,6 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Copyright" "Common Ground Electronics <https://cgnd.dev>;The KiCad Developers <https://www.kicad.org>"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Symbol License" "CC-BY-SA-4.0 WITH KiCad-libraries-exception"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "Logo KiCad"
 				(at 0 0 0)
 				(effects
@@ -1442,26 +1422,6 @@
 			)
 			(property "Description" "Logo, Open Source Hardware (OSHW), 7.64x8 mm, Silkscreen"
 				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Symbol Copyright" "Common Ground Electronics <https://cgnd.dev>;The KiCad Developers <https://www.kicad.org>"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Symbol License" "CC-BY-SA-4.0 WITH KiCad-libraries-exception"
-				(at 0 -20.32 0)
-				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6959,26 +6919,6 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Copyright" "Common Ground Electronics <https://cgnd.dev>;The KiCad Developers <https://www.kicad.org>"
-			(at 228.6 50.8 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol License" "CC-BY-SA-4.0 WITH KiCad-libraries-exception"
-			(at 228.6 53.34 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/3425d9f3-07ae-477a-b42b-2532b24ef991"
@@ -7287,26 +7227,6 @@
 		)
 		(property "Description" "Logo, Kicad, Designed With, 15.34x7.35 mm, Silkscreen"
 			(at 228.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol Copyright" "Common Ground Electronics <https://cgnd.dev>;The KiCad Developers <https://www.kicad.org>"
-			(at 228.6 129.54 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol License" "CC-BY-SA-4.0 WITH KiCad-libraries-exception"
-			(at 228.6 132.08 0)
-			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
