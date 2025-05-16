@@ -520,8 +520,6 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Module_RaspberryPi_Pico",
-      "RPi_Pico_SAO_Host",
       "CGND_Capacitor",
       "CGND_Connector",
       "CGND_Fiducial",
@@ -534,12 +532,11 @@
       "CGND_Switch"
     ],
     "pinned_symbol_libs": [
-      "MCU_Module_RaspberryPi_Pico",
-      "RPi_Pico_SAO_Host",
       "CGND_Connector",
       "CGND_Graphic",
       "CGND_Mechanical",
-      "CGND_Power"
+      "CGND_Power",
+      "CGND_OSHW_IPN"
     ]
   },
   "meta": {
@@ -755,18 +752,6 @@
           "group_by": false,
           "label": "Symbol",
           "name": "Symbol",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Symbol Copyright",
-          "name": "Symbol Copyright",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Symbol License",
-          "name": "Symbol License",
           "show": false
         },
         {
