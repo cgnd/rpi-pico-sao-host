@@ -2,6 +2,8 @@
 #
 # SPDX-License-Identifier: MIT OR Apache-2.0
 
+import glob
+import json
 import platform
 import shutil
 import sys
@@ -21,7 +23,7 @@ if sys.version_info >= (3, 11):
         inspect.getargspec = inspect.getfullargspec
 
 
-def get_kicad_cli_path():
+def get_kicad_cli_path() -> Path:
     """Determine the KiCad CLI path based on the operating system."""
     if platform.system() == "Darwin":  # macOS
         # Check for KiCad 9.0 path first
@@ -29,39 +31,81 @@ def get_kicad_cli_path():
             "/Applications/KiCad_9.0/KiCad.app/Contents/MacOS/kicad-cli"
         )
         if kicad_9_path.exists():
-            return str(kicad_9_path)
+            return kicad_9_path
 
         # Fallback to the default KiCad path
         kicad_default_path = Path(
             "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli"
         )
         if kicad_default_path.exists():
-            return str(kicad_default_path)
+            return kicad_default_path
 
         # If neither path exists, raise an error
         raise FileNotFoundError("kicad-cli not found")
 
     # Default for Windows and Linux
-    return "kicad-cli"
+    return Path("kicad-cli")
 
 
-KICAD_CLI = get_kicad_cli_path()
+def get_kicad_project_path() -> Path:
+    """
+    Searches the current directory for exactly one .kicad_pro file.
+
+    Returns the .kicad_pro filename.
+
+    Raises an error if none or more than one is found.
+    """
+    kicad_pro_files = glob.glob("*.kicad_pro")
+
+    if not kicad_pro_files:
+        raise FileNotFoundError(
+            "No .kicad_pro file found in the current directory."
+        )
+
+    if len(kicad_pro_files) > 1:
+        raise RuntimeError(
+            f"Multiple .kicad_pro files found: {kicad_pro_files}. Expected only one."
+        )
+
+    # Remove the extension and return just the prefix
+    return Path(kicad_pro_files[0])
+
+
+def extract_text_variables(kicad_pro_path: Path) -> dict[str, str]:
+    """
+    Extract the 'text_variables' dictionary from a .kicad_pro file.
+
+    Args:
+        filepath (str): Path to the .kicad_pro JSON file.
+
+    Returns:
+        dict: Dictionary of any text variables found.
+    """
+    try:
+        with open(kicad_pro_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # 'text_variables' is expected to be at the root level
+        return data.get("text_variables", None)
+
+    except (json.JSONDecodeError, FileNotFoundError) as e:
+        print(f"Error reading file: {e}")
+        return {}
+
+
+KICAD_CLI = str(get_kicad_cli_path())
+PROJECT_PATH = get_kicad_project_path()
+text_variables = extract_text_variables(PROJECT_PATH)
 
 # Project metadata
-ORGANIZATION = "Common Ground Electronics"
-ORGANIZATION_URL = "https://cgnd.dev"
-COPYRIGHT_HOLDER = ORGANIZATION
-COPYRIGHT_HOLDER_CONTACT = ORGANIZATION_URL
-SPDX_LICENSE_ID = "CERN-OHL-P-2.0"
-PROJECT_NAME = "RPi_Pico_SAO_Host"
-PROJECT_DESCRIPTION = "Raspberry Pi Pico SAO Host"
-PROJECT_VERSION_MAJOR = "2"
-PCB_PART_NUMBER = "100092"
-PCB_REV = "B"
-SCH_PART_NUMBER = "100093"
-SCH_REV = "A"
-PCA_PART_NUMBER = "100094"
-PCA_REV = "A"
+PROJECT_NAME = PROJECT_PATH.stem
+PROJECT_VERSION_MAJOR = text_variables.get("PROJECT_VERSION_MAJOR", "0")
+PCA_PART_NUMBER = text_variables.get("PCA_PART_NUMBER", "000000")
+PCA_REV = text_variables.get("PCA_REV", "0")
+SCH_PART_NUMBER = text_variables.get("SCH_PART_NUMBER", "000000")
+SCH_REV = text_variables.get("SCH_REV", "0")
+PCB_PART_NUMBER = text_variables.get("PCB_PART_NUMBER", "000000")
+PCB_REV = text_variables.get("PCB_REV", "0")
 
 # Input Paths
 SCH_PATH = Path(f"{PROJECT_NAME}.kicad_sch")
