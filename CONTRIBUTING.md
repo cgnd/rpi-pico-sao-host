@@ -33,14 +33,6 @@ uv pip install -r requirements.txt
 
 This will install the [Invoke](https://www.pyinvoke.org/) task runner which provides commands to manage the project.
 
-Initialize the SQLite database used by the database libraries:
-
-```sh
-cd lib/github.com/cgnd/cgnd-kicad-lib/
-uv pip install -r requirements.txt
-inv db.load
-```
-
 ## Running design checks
 
 The `check` task runs ERC & DRC checks against the schematic and PCB respectively:

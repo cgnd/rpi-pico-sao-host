@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Remove old copyright & license fields.
 - Clean up KiCad project file.
+- Remove old library setup instructions from CONTRIBUTING.md.
 
 ### Changed
 
