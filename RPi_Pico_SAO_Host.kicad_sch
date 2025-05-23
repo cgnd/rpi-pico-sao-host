@@ -2535,8 +2535,7 @@
 				)
 			)
 			(property "Footprint" "CGND_Module:Raspberry_Pi_Pico_Common_SMD"
-				(at 0 -54.61 0)
-				(show_name)
+				(at 0 -52.07 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2569,16 +2568,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Module:Raspberry_Pi_Pico"
-				(at 0 -52.07 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Module MCU ARM Cortex-M0+ RP2040 Pico"
@@ -3572,8 +3561,7 @@
 				)
 			)
 			(property "Footprint" "CGND_Switch:CK_JS102011SAxN"
-				(at 0 -12.7 0)
-				(show_name)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3605,16 +3593,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Switch:Switch_SPDT"
-				(at 0 -10.16 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON JS"
@@ -3768,8 +3746,7 @@
 				)
 			)
 			(property "Footprint" "CGND_Switch:CK_PTS810SJx250"
-				(at 0 -10.16 0)
-				(show_name)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3801,16 +3778,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Switch:Switch_Push_SPST-NO"
-				(at 0 -7.62 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "tactile switch SPST-NO PTS810"
@@ -3941,8 +3908,7 @@
 				)
 			)
 			(property "Footprint" "CGND_Connector:Sullins_SFH11-xxxC-D03-ST-BK"
-				(at 0 -17.78 0)
-				(show_name)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3974,16 +3940,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Connector:Connector_2x3_Odd_Even"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SFH11"
@@ -4157,8 +4113,7 @@
 				)
 			)
 			(property "Footprint" "CGND_LED:LEDSC_0603_0.8x1.6x0.8mm_L0.45x0.7mm_N"
-				(at 0 -12.7 0)
-				(show_name)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4190,16 +4145,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Device:LED"
-				(at 0 -10.16 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "green LED clear"
@@ -4362,8 +4307,7 @@
 				)
 			)
 			(property "Footprint" "CGND_Resistor:RESC_0603_1.6x0.8x0.55mm_L0.25mm_N"
-				(at 0 -10.16 0)
-				(show_name)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4395,16 +4339,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Device:Resistor"
-				(at 0 -7.62 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "res resistor RC_L"
@@ -4543,8 +4477,7 @@
 				)
 			)
 			(property "Footprint" "CGND_Resistor:RESC_0603_1.6x0.8x0.55mm_L0.25mm_N"
-				(at 0 -10.16 0)
-				(show_name)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4576,16 +4509,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Device:Resistor"
-				(at 0 -7.62 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "res resistor RC_L"
@@ -4758,16 +4681,6 @@
 					)
 				)
 			)
-			(property "Symbol" "CGND_TEMPLATE_Part_Number:PCB"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "PCB"
 				(at 0 0 0)
 				(effects
@@ -4932,16 +4845,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Symbol" "CGND_TEMPLATE_Part_Number:Schematic"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "schematic"
@@ -6288,8 +6191,7 @@
 			)
 		)
 		(property "Footprint" "CGND_Resistor:RESC_0603_1.6x0.8x0.55mm_L0.25mm_N"
-			(at 109.22 109.22 0)
-			(show_name yes)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,16 +6224,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Device:Resistor"
-			(at 111.76 109.22 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6957,8 +6849,7 @@
 			)
 		)
 		(property "Footprint" "CGND_Resistor:RESC_0603_1.6x0.8x0.55mm_L0.25mm_N"
-			(at 152.4 129.54 0)
-			(show_name yes)
+			(at 154.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,16 +6882,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Device:Resistor"
-			(at 154.94 129.54 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7109,8 +6990,7 @@
 			)
 		)
 		(property "Footprint" "CGND_Connector:Sullins_SFH11-xxxC-D03-ST-BK"
-			(at 152.4 53.34 0)
-			(show_name yes)
+			(at 152.4 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,16 +7022,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Connector:Connector_2x3_Odd_Even"
-			(at 152.4 50.8 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -7272,8 +7142,7 @@
 			)
 		)
 		(property "Footprint" "CGND_LED:LEDSC_0603_0.8x1.6x0.8mm_L0.45x0.7mm_N"
-			(at 149.86 142.24 0)
-			(show_name yes)
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,16 +7175,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Device:LED"
-			(at 152.4 142.24 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "A"
@@ -7359,8 +7218,7 @@
 			)
 		)
 		(property "Footprint" "CGND_Switch:CK_PTS810SJx250"
-			(at 170.18 109.22 0)
-			(show_name yes)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,16 +7250,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Switch:Switch_Push_SPST-NO"
-			(at 170.18 106.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8182,16 +8030,6 @@
 				)
 			)
 		)
-		(property "Symbol" "CGND_TEMPLATE_Part_Number:Schematic"
-			(at 215.9 162.56 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/3425d9f3-07ae-477a-b42b-2532b24ef991"
@@ -8453,16 +8291,6 @@
 				)
 			)
 		)
-		(property "Symbol" "CGND_TEMPLATE_Part_Number:PCB"
-			(at 243.84 162.56 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/3425d9f3-07ae-477a-b42b-2532b24ef991"
@@ -8687,8 +8515,7 @@
 			)
 		)
 		(property "Footprint" "CGND_Connector:Sullins_SFH11-xxxC-D03-ST-BK"
-			(at 152.4 81.28 0)
-			(show_name yes)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,16 +8547,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Connector:Connector_2x3_Odd_Even"
-			(at 152.4 78.74 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -8910,8 +8727,7 @@
 			)
 		)
 		(property "Footprint" "CGND_Switch:CK_JS102011SAxN"
-			(at 127 111.76 0)
-			(show_name yes)
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,16 +8759,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Switch:Switch_SPDT"
-			(at 127 109.22 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9190,8 +8996,7 @@
 			)
 		)
 		(property "Footprint" "CGND_Module:Raspberry_Pi_Pico_Common_SMD"
-			(at 63.5 123.19 0)
-			(show_name yes)
+			(at 63.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,16 +9029,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Module:Raspberry_Pi_Pico"
-			(at 63.5 120.65 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "14"

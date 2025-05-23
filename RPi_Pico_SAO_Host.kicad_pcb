@@ -337,19 +337,6 @@
 				)
 			)
 		)
-		(property "Symbol" "CGND_TEMPLATE_Connector:Connector_2x3_Odd_Even"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5cae1796-29af-447f-9ade-f5b9e0af80ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CGND_Connector:Sullins_SFH11-xxxC-D03-ST-BK")
 		(path "/46f9c475-dcfe-4987-a1a6-ede1b08eb690")
 		(sheetname "/")
@@ -1002,19 +989,6 @@
 				)
 			)
 		)
-		(property "Symbol" "CGND_TEMPLATE_Device:Resistor"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "396fda69-7c0d-4b9c-a59f-94925aa876e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CGND_Resistor:RESC_0603_1.6x0.8x0.55mm_L0.25mm_N")
 		(path "/07f26924-cec2-4b8e-abf6-6a13587fb506")
 		(sheetname "/")
@@ -1415,19 +1389,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1537a84-d313-4bcb-95ca-97e7496d4f1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Module:Raspberry_Pi_Pico"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5498f700-9e2d-4019-966e-2c4564ad4f1c")
 			(effects
 				(font
 					(size 1 1)
@@ -4522,19 +4483,6 @@
 				)
 			)
 		)
-		(property "Symbol" "CGND_TEMPLATE_Connector:Connector_2x3_Odd_Even"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98c17f29-bba3-46fc-aa4d-97051d82ffd8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CGND_Connector:Sullins_SFH11-xxxC-D03-ST-BK")
 		(path "/dde1570a-93ea-42e8-a2ed-e30a1e997969")
 		(sheetname "/")
@@ -5629,19 +5577,6 @@
 				)
 			)
 		)
-		(property "Symbol" "CGND_TEMPLATE_Switch:Switch_SPDT"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04c36408-afd9-4518-8073-4872239c9a24")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "CGND_Switch:CK_JS102011SAxN")
 		(path "/ef46157e-e8b4-46a8-8bc9-71190b14d415")
 		(sheetname "/")
@@ -6032,19 +5967,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52922837-881d-45bb-9e75-df423542c4cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Device:LED"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a485df1-908e-4168-ac72-1e61b61efaf2")
 			(effects
 				(font
 					(size 1 1)
@@ -6513,19 +6435,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6f412c1-3ab9-49dd-b51d-410e0adca52d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Switch:Switch_Push_SPST-NO"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e052f6e3-9604-4990-b9f1-07f6a7e0851f")
 			(effects
 				(font
 					(size 1 1)
@@ -7113,19 +7022,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5addb5cb-b6be-4bb3-ba04-06c7cb4639e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Symbol" "CGND_TEMPLATE_Device:Resistor"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc7af7e9-12de-44ad-bb4b-6dc4887ca0de")
 			(effects
 				(font
 					(size 1 1)
