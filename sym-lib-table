@@ -10,5 +10,5 @@
   (lib (name "CGND_TEMPLATE_Module")(type "KiCad")(uri "${KIPRJMOD}/lib/github.com/cgnd/cgnd-kicad-lib/symbols/CGND_TEMPLATE_Module.kicad_sym")(options "")(descr ""))
   (lib (name "CGND_TEMPLATE_Part_Number")(type "KiCad")(uri "${KIPRJMOD}/lib/github.com/cgnd/cgnd-kicad-lib/symbols/CGND_TEMPLATE_Part_Number.kicad_sym")(options "")(descr ""))
   (lib (name "CGND_TEMPLATE_Switch")(type "KiCad")(uri "${KIPRJMOD}/lib/github.com/cgnd/cgnd-kicad-lib/symbols/CGND_TEMPLATE_Switch.kicad_sym")(options "")(descr ""))
-  (lib (name "CGND_OSHW_IPN")(type "Database")(uri "${KIPRJMOD}/lib/github.com/cgnd/cgnd-kicad-lib/databases/CGND_OSHW_IPN.kicad_dbl")(options "")(descr ""))
+  (lib (name "CGND_OSHW_IPN")(type "Database")(uri "${KIPRJMOD}/lib/github.com/cgnd/cgnd-kicad-lib/symbols/CGND_OSHW_IPN.kicad_dbl")(options "")(descr ""))
 )

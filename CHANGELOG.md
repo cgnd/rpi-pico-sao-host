@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 
 - Remove hard-coded project metadata from tasks.py.
+- Update `CGND_OSHW_IPN` library URI (the path was changed in a library update).
 
 ## [2.0.1] - 2025-05-12
 
